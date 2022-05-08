@@ -1,0 +1,28 @@
+local speedhack = false
+
+function onKeyPress(inputObject, gameProcessedEvent)
+    if inputObject.KeyCode == Enum.KeyCode.V and gameProcessedEvent == false then
+     if speedhack == false then
+       speedhack = true
+
+     elseif speedhack == true then
+       speedhack = false
+    
+       
+     end
+   end
+end
+ 
+game:GetService("UserInputService").InputBegan:connect(onKeyPress)
+
+
+while wait() do
+    if speedhack == true then
+     game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 80
+    end
+    
+end
+
+
+
+--keybind V
