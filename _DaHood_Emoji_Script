@@ -1,0 +1,66 @@
+--emoji script on ur head
+
+local StarId = {
+
+  0,
+
+
+}
+
+local CrownId = {
+
+
+  0,
+  
+  
+}
+
+local DiamondId = {
+
+	0,
+  
+  
+}
+
+
+
+for _,v in pairs(game:GetService('Players'):GetChildren()) do
+
+	if table.find(StarId, v.UserId) then
+  
+		if v.Character then
+    
+			if v.Character.Parent.Name == 'Players' then
+      
+				v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]'..v.DisplayName)
+        
+			end
+		end
+    
+	elseif table.find(CrownId, v.UserId) then
+  
+		if v.Character then
+    
+			if v.Character.Parent.Name == 'Players' then
+      
+				v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]'..v.DisplayName)
+        
+			end
+      
+		end
+    
+	elseif table.find(DiamondId, v.UserId) then
+  
+		if v.Character then
+    
+			if v.Character.Parent.Name == 'Players' then
+      
+				v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]'..v.DisplayName)
+        
+			end
+      
+		end
+    
+	end
+  
+end
