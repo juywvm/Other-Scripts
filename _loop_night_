@@ -1,0 +1,5 @@
+getgenv().ClockTime = 19             -- day time you can set your own. (19 = night)
+getgenv().LoopNightEnabled = true    -- make this false if you want to stop loop.
+
+local L = game:GetService("Lighting")
+game:GetService("RunService").RenderStepped:Connect(function() if getgenv().LoopNightEnabled then L.ClockTime = getgenv().ClockTime end end)
